@@ -5,11 +5,11 @@ La idea de la clase de hoy es practicar componentes, y aprobechar la practica pa
 ## Temas de hoy:
 1. Importar componentes,
 2. practicar estilos,
-3. Formulario:
+3. Formulario:(
     a. Inputs,
     b. estados,
     c. alertas,
-    d. ternario
+    d. ternario)
 
 ## Ejercicio:
 1. Hacer 4 componentes que se importen en App.js
