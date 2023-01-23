@@ -12,7 +12,7 @@ Es un formulario para completar datos de las Alumnas de ADA
     c. alertas,
     d. ternario)
 
-## Ejercicio: (utilizar una tematica diferente a la vista en clase)
+## Ejercicio: (utilizar una temática diferente a la vista en clase)
 1. Hacer 4 componentes que se importen en App.js
 2. 1 de esos componentes tiene que ser un formulario
 3. En el formulario realizar las cosas vistas en clase.
