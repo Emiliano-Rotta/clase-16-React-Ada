@@ -10,7 +10,7 @@ Es un formulario para completar datos de las Alumnas de ADA
     a. Inputs,
     b. estados,
     c. alertas,
-    d. ternario)
+    d. condicional)
 
 ## Ejercicio: (utilizar una temática diferente a la vista en clase)
 1. Hacer 4 componentes que se importen en App.js

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import style from "./Form.module.css";
-
 export default function Form(){
 
   const[input, setInput] = useState({ nombre: "", apellido: "", mail: "", edad: "", foto: "" })
@@ -19,8 +18,6 @@ export default function Form(){
       alert ("Datos guardados con exito")
       setDatos (true)
       // setInput({ nombre: "", apellido: "", mail: "", edad: "", foto: "" })
-
-      
   }
     
   
@@ -80,7 +77,7 @@ export default function Form(){
         <button className={style.boton} type='submit'>Guardar datos</button>
           
       </form>
-      {datos ?
+      {datos &&
       (<div className ={style.datos}>
        {input.nombre}, tus datos guardados son: 
        Nombre: {input.nombre}, 
@@ -89,7 +86,7 @@ export default function Form(){
        Edad: {input.edad},
        Foto: {input.foto}.
 
-      </div>): <p></p>}
+      </div>)}
     </div>
   )
 }
