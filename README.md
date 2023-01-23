@@ -1,6 +1,7 @@
 # Practica componentes  (Formulario)
 
-La idea de la clase de hoy es practicar componentes, y aprobechar la practica para enseñarles a hacer un formulario
+La idea de la clase de hoy es practicar componentes, y aprobechar la practica para enseñarles a hacer un formulario.
+es un formulario para completar datos de las Alumnas de ADA
 
 ## Temas de hoy:
 1. Importar componentes,
