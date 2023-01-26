@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import style from "./Form.module.css";
+
+
 export default function Form(){
 
-  const[input, setInput] = useState({ nombre: "", apellido: "", mail: "", edad: "", foto: "" })
+  const[input, setInput] = useState({ nombre: "", apellido: "", mail: "", edad: "", foto: ""})
   const [datos, setDatos] = useState(false)
 
   function handleChange(e){
@@ -24,7 +26,7 @@ export default function Form(){
   return(
 
     <div>
-      <h6><img className ={style.imagen}src = "https://adaitw.org/wp-content/uploads/2021/05/carreras_backend_2021.png"></img></h6>
+      <img className ={style.imagen}src = "https://adaitw.org/wp-content/uploads/2021/05/carreras_backend_2021.png" alt={"ada"}/>
           
       <form className ={style.contenedor}  onSubmit = {(e)=>handleSubmit(e)} >
      
@@ -77,7 +79,8 @@ export default function Form(){
         <button className={style.boton} type='submit'>Guardar datos</button>
           
       </form>
-      {datos &&
+
+      {datos &&      
       (<div className ={style.datos}>
        {input.nombre}, tus datos guardados son: 
        Nombre: {input.nombre}, 
@@ -85,7 +88,7 @@ export default function Form(){
        Mail: {input.mail},
        Edad: {input.edad},
        Foto: {input.foto}.
-
+       
       </div>)}
     </div>
   )
